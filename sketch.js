@@ -18,7 +18,7 @@ function preload() {
   // or asteroid files because the asteroid destruction logic is here and it
   // also reduces redundancy of each asteroid or laser containing sound data.
   for (var i =0; i < 3; i++){
-    laserSoundEffects[i] = loadSound('audio/pew-'+i+'.mp3');
+    laserSoundEffects[i] = loadSound('audio/7.wav');
   }
   for (var i =0; i < 3; i++){
     explosionSoundEffects[i] = loadSound('audio/explosion-'+i+'.mp3');
